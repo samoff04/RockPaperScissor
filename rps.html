@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Rock Paper Scissors</title>
+  <link rel="stylesheet" href="rps.css" />
+</head>
+<body>
+
+  <!-- Name Input Popup -->
+  <div class="overlay" id="name-popup">
+    <div class="popup">
+      <h2>Enter Your Name</h2>
+      <input type="text" id="name-input" placeholder="Your name" />
+      <br />
+      <button id="start-game">Start Game</button>
+    </div>
+  </div>
+
+  <!-- Leave Confirmation Popup -->
+  <div class="overlay hidden" id="leave-popup">
+    <div class="popup">
+      <h2>Are you sure you want to leave?</h2>
+      <button id="confirm-leave">Yes, Leave</button>
+      <button id="cancel-leave">Cancel</button>
+    </div>
+  </div>
+
+  <!-- Main Game Container -->
+  <div class="container hidden" id="game-container">
+    <div class="header">
+      <h1>Rock Paper Scissors</h1>
+      <button id="leave-btn">Leave Game</button>
+    </div>
+
+    <div class="scoreboard">
+      <h3 id="scoreboard-title">Player vs Bot</h3>
+      <p><strong><span id="player-name">Player</span></strong> Score: <span id="player-score">0</span></p>
+      <p><strong>Bot</strong> Score: <span id="bot-score">0</span></p>
+    </div>
+
+    <div class="moves">
+      <p>You Chose: <span id="player-move">-</span></p>
+      <p>Bot Chose: <span id="bot-move">-</span></p>
+    </div>
+
+    <div class="outcome" id="outcome">Make your move!</div>
+
+    <div class="choices">
+      <button class="choice" data-choice="rock">🪨 Rock</button>
+      <button class="choice" data-choice="paper">📄 Paper</button>
+      <button class="choice" data-choice="scissors">✂️ Scissors</button>
+    </div>
+  </div>
+
+  <!-- Goodbye Message -->
+  <div class="goodbye hidden" id="goodbye-message">
+    <h2>Thanks for playing! 👋</h2>
+  </div>
+
+  <script src="rps.js"></script>
+</body>
+</html>
