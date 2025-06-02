@@ -1,4 +1,4 @@
-# 🎮 Rock Paper Scissors — Animated Web Game
+# Rock Paper Scissors — Animated Web Game
 
 A beautifully animated **Rock Paper Scissors** game features interactive UI, player name input, a real-time scoreboard, and a graceful exit with confirmation popups — all within a smooth and stylish interface.
 
@@ -6,17 +6,17 @@ A beautifully animated **Rock Paper Scissors** game features interactive UI, pla
 
 ## Features
 
-- 🧑‍💻 Prompt for player name with animated popup  
-- 🤖 Play against a bot with random choices  
-- 📊 Scoreboard showing **[Player Name] vs Bot**  
-- ✨ Beautiful transitions and UI animations  
-- 💬 Real-time move updates and game outcome  
-- 🚪 "Leave Game" button with animated confirmation popup  
-- 👋 Goodbye message screen after leaving the game  
+-  Prompt for player name with animated popup  
+-  Play against a bot with random choices  
+-  Scoreboard showing **[Player Name] vs Bot**  
+-  Beautiful transitions and UI animations  
+-  Real-time move updates and game outcome  
+-  "Leave Game" button with animated confirmation popup  
+-  Goodbye message screen after leaving the game  
 
 ---
 
-## Demo Screenshot
+## Screenshot
 ![image](https://github.com/user-attachments/assets/64621fc4-e676-49ea-a4f5-787f8c919218)
 ![image](https://github.com/user-attachments/assets/638aac2e-560d-4839-9c81-93a058163371)
 ![image](https://github.com/user-attachments/assets/65acc1b5-c064-491d-8f98-aa5d831c0e7e)
@@ -34,7 +34,7 @@ A beautifully animated **Rock Paper Scissors** game features interactive UI, pla
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 **Samarth Varshney**  
 Thank you for checking out this project! 😊
