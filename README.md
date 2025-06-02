@@ -34,7 +34,7 @@ A beautifully animated **Rock Paper Scissors** game features interactive UI, pla
 
 ---
 
-## Author
+## 👨‍💻 Author
 
 **Samarth Varshney**  
-Thank you for playing! 🎉
+Thank you for checking out this project! 😊
